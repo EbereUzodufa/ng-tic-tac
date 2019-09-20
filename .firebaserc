@@ -1,11 +1,14 @@
 {
   "targets": {
-    "first-ng-e46b0": {
+    "tic-tak-730d4": {
       "hosting": {
         "ng-tick-tack": [
-          "first-ng-e46b0"
+          "tic-tak-730d4"
         ]
       }
     }
+  },
+  "projects": {
+    "default": "tic-tak-730d4"
   }
 }
