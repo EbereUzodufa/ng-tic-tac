@@ -126,8 +126,13 @@
               "devServerTarget": "ng-tick-tack:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "ng-tick-tack"
 }

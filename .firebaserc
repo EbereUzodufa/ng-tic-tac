@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "first-ng-e46b0": {
+      "hosting": {
+        "ng-tick-tack": [
+          "first-ng-e46b0"
+        ]
+      }
+    }
+  }
+}

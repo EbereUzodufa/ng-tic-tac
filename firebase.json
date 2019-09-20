@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ng-tick-tack",
+      "public": "dist/ng-tick-tack",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
