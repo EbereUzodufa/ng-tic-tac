@@ -5,12 +5,12 @@ import { Component } from '@angular/core';
   template: `
     <p>
       square works!
+      {{ rando }}
     </p>
   `,
   styles: []
 })
 export class SquareComponent{
-
-  constructor() { }
+  rando = Math.random();
 
 }
