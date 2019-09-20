@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
   template: `
-    // <p>
+    <p>
     //   square works!
     //   {{ rando }}
-    // </p>
+    </p>
   `,
   styles: []
 })
@@ -17,5 +17,6 @@ export class SquareComponent{
   //   setInterval(()=>this.rando = Math.random(),500)
   // }
 
+  @Input() values: 'X' | 'O';
 
 }
